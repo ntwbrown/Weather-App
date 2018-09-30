@@ -7,11 +7,13 @@ namespace WeatherApp.Android
 {
     [Activity(Label = "Sample Weather App",
               Theme = "@android:style/Theme.Material.Light",
-              MainLauncher = true)]
+              MainLauncher = true)] 
     public class MainActivity : Activity
     {
         protected override void OnCreate(Bundle bundle)
         {
+            //notes
+
             base.OnCreate(bundle);
 
             SetContentView(Resource.Layout.Main);
